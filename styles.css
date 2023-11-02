@@ -1,1 +1,47 @@
 /*  your css code here. If applicable */
+    <script type="text/javascript" src="./script.js">
+:root {
+  background-color: rgb(135, 206, 235);
+}
+
+.page-content {
+  margin: 20px;
+}
+
+article p:first-child {
+  background-color: black;
+  color: white;
+}
+
+article p:nth-child(2) {
+  color: black; /* Standard text color */
+}
+
+article p:last-child {
+  color: red;
+}
+
+.unordered-list {
+  list-style: none;
+  padding: 0;
+}
+
+.unordered-list li {
+  background-color: gray;
+  width: 50%;
+  padding: 10px;
+}
+
+.unordered-list li:first-child,
+.unordered-list li:last-child {
+  font-size: 22px;
+}
+
+.unordered-list li:nth-last-child(3) {
+  background-color: pink;
+}
+
+/* Odd items with white background */
+.unordered-list li:nth-child(odd) {
+  background-color: white;
+}
